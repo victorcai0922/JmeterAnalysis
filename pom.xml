@@ -1,0 +1,264 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<artifactId>oss-parent</artifactId>
+		<groupId>org.sonatype.oss</groupId>
+		<version>7</version>
+	</parent>
+
+	<groupId>com.lazerycode.jmeter</groupId>
+	<artifactId>jmeter-analysis-maven-plugin</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>maven-plugin</packaging>
+	<name>JMeter Result Analyzer Maven Plugin</name>
+	<description>
+    Parses JMeter result files and computes performance indicators such as average request duration
+  </description>
+	<url>http://jmeter.lazerycode.com</url>
+
+	<licenses>
+		<license>
+			<name>Apache 2</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>Ardesco</id>
+			<name>Mark Collin</name>
+			<roles>
+				<role>Comitter</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>afranken</id>
+			<name>Arne Franken</name>
+			<roles>
+				<role>Comitter</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>pkaul</id>
+			<name>Peter Kaul</name>
+			<roles>
+				<role>Comitter</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>dhomann</id>
+			<name>Dennis Homann</name>
+			<roles>
+				<role>Comitter</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<!-- no contributors right now -->
+	<!--<contributors> -->
+	<!--<contributor> -->
+	<!--<name>Jon Doe</name> -->
+	<!--</contributor> -->
+	<!--</contributors> -->
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/afranken/jmeter-analysis-maven-plugin/issues</url>
+	</issueManagement>
+
+	<ciManagement>
+		<system>Jenkins CI</system>
+		<url>http://ci.lazerycode.com</url>
+	</ciManagement>
+
+	<!-- TODO: use these groups? Or have separate ones? -->
+	<mailingLists>
+		<mailingList>
+			<name>JMeter Maven Plugin Users</name>
+			<post>maven-jmeter-plugin-users@googlegroups.com</post>
+			<archive>https://groups.google.com/forum/?fromgroups#!forum/maven-jmeter-plugin-users</archive>
+		</mailingList>
+		<mailingList>
+			<name>JMeter Maven Plugin Devs</name>
+			<post>maven-jmeter-plugin-devs@googlegroups.com</post>
+			<archive>https://groups.google.com/forum/?fromgroups#!forum/maven-jmeter-plugin-devs</archive>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:git@github.com:afranken/jmeter-analysis-maven-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:afranken/jmeter-analysis-maven-plugin.git</developerConnection>
+		<url>https://github.com/afranken/jmeter-analysis-maven-plugin</url>
+	</scm>
+
+	<!-- TODO: request storage in Sonatype repo -->
+	<distributionManagement>
+		<repository>
+			<id>sonatype-nexus-staging</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+		<snapshotRepository>
+			<id>sonatype-nexus-snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>3.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>3.1.1.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>1.0.13</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.19</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+			<version>4.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.17</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+					</configuration>
+				</plugin>
+				<!-- TODO: create mvn:site -->
+				<!--<plugin> -->
+				<!--<groupId>org.apache.maven.plugins</groupId> -->
+				<!--<artifactId>maven-site-plugin</artifactId> -->
+				<!--<version>3.0</version> -->
+				<!--<configuration> -->
+				<!--<locales>en</locales> -->
+				<!--<inputEncoding>UTF-8</inputEncoding> -->
+				<!--<outputEncoding>UTF-8</outputEncoding> -->
+				<!--<reportPlugins> -->
+				<!--<reportPlugin> -->
+				<!--<groupId>org.apache.maven.plugins</groupId> -->
+				<!--<artifactId>maven-project-info-reports-plugin</artifactId> -->
+				<!--<configuration> -->
+				<!--<dependencyDetailsEnabled>false</dependencyDetailsEnabled> -->
+				<!--<dependencyLocationsEnabled>false</dependencyLocationsEnabled> -->
+				<!--</configuration> -->
+				<!--<reportSets> -->
+				<!--<reportSet> -->
+				<!--<reports> -->
+				<!--<report>index</report> -->
+				<!--<report>summary</report> -->
+				<!--<report>dependency-management</report> -->
+				<!--<report>issue-tracking</report> -->
+				<!--<report>help</report> -->
+				<!--<report>modules</report> -->
+				<!--<report>dependencies</report> -->
+				<!--<report>plugins</report> -->
+				<!--<report>cim</report> -->
+				<!--<report>license</report> -->
+				<!--<report>mailing-list</report> -->
+				<!--<report>project-team</report> -->
+				<!--<report>scm</report> -->
+				<!--<report>dependencies</report> -->
+				<!--<report>distribution-management</report> -->
+				<!--</reports> -->
+				<!--</reportSet> -->
+				<!--</reportSets> -->
+				<!--</reportPlugin> -->
+				<!--</reportPlugins> -->
+				<!--</configuration> -->
+				<!--</plugin> -->
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<profiles>
+		<profile>
+			<id>release</id>
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-gpg-plugin</artifactId>
+							<executions>
+								<execution>
+									<id>sign-artifacts</id>
+									<phase>verify</phase>
+									<goals>
+										<goal>sign</goal>
+									</goals>
+								</execution>
+							</executions>
+						</plugin>
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-javadoc-plugin</artifactId>
+							<executions>
+								<execution>
+									<id>attach-javadocs</id>
+									<goals>
+										<goal>jar</goal>
+									</goals>
+								</execution>
+							</executions>
+						</plugin>
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-source-plugin</artifactId>
+							<version>2.1.2</version>
+							<executions>
+								<execution>
+									<id>attach-sources</id>
+									<goals>
+										<goal>jar-no-fork</goal>
+									</goals>
+								</execution>
+							</executions>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+		</profile>
+	</profiles>
+
+</project>

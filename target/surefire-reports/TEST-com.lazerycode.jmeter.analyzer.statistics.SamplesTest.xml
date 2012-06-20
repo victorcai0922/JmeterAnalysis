@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.062" errors="0" skipped="0" tests="5" name="com.lazerycode.jmeter.analyzer.statistics.SamplesTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.6.0_24\jre\bin"/>
+    <property name="java.vm.version" value="19.1-b02"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\jmeter-analysis-maven-plugin"/>
+    <property name="java.runtime.version" value="1.6.0_24-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\jmeter-analysis-maven-plugin"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.6.0_24\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="C:\DOCUME~1\CAIQIU~1\LOCALS~1\Temp\surefirebooter6066345402996307907.jar"/>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\CAIQIU~1\LOCALS~1\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.6.0_24\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;d:\Ruby193\bin;D:\ruby\bin;D:\Perl\site\bin;D:\Perl\bin;D:\btrace\bin;D:\orl\bin;c:\Program Files\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;c:\Program Files\Intel\DMIX;D:\Program Files\Java\jdk1.6.0_24\bin;D:\Program Files\Java\jdk1.6.0_24\jre\bin;D:\Program Files\apache-ant-1.8.2\bin;D:\Program Files\apache-ant-1.8.2\lib;D:\Program Files\Subversion\bin;D:\Program Files\MySQL\MySQL Server 5.0\bin;D:\Program Files\apache-maven-2.2.1\bin;F:\Android\tools;C:\Program Files\Windows Imaging\;d:\Program Files\Git\cmd;F:\softwaretools\jmeter-2.6\bin;D:\btrace\bin;d:\Program Files\SSH Communications Security\SSH Secure Shell;d:\Program Files\OpenVPN\bin;D:\Program Files\Sikuli X\libs;D:\Program Files\Java\jre6\\bin"/>
+    <property name="surefire.test.class.path" value="E:\jmeter-analysis-maven-plugin\target\test-classes;E:\jmeter-analysis-maven-plugin\target\classes;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.4\plexus-component-annotations-1.5.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-core\3.1.1.RELEASE\spring-core-3.1.1.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-asm\3.1.1.RELEASE\spring-asm-3.1.1.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\jfree\jfreechart\1.0.13\jfreechart-1.0.13.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\jfree\jcommon\1.0.16\jcommon-1.0.16.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\freemarker\freemarker\2.3.19\freemarker-2.3.19.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="5.1"/>
+    <property name="user.home" value="C:\Documents and Settings\caiqiuliang"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="caiqiuliang"/>
+    <property name="java.class.path" value="E:\jmeter-analysis-maven-plugin\target\test-classes;E:\jmeter-analysis-maven-plugin\target\classes;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.4\plexus-component-annotations-1.5.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-core\3.1.1.RELEASE\spring-core-3.1.1.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-asm\3.1.1.RELEASE\spring-asm-3.1.1.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\jfree\jfreechart\1.0.13\jfreechart-1.0.13.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\jfree\jcommon\1.0.16\jcommon-1.0.16.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\freemarker\freemarker\2.3.19\freemarker-2.3.19.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.6.0_24\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_24"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.6.0_24\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.6.0_24\jre\lib\resources.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\rt.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\jce.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\modules\jdk.boot.jar;D:\Program Files\Java\jdk1.6.0_24\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Documents and Settings\caiqiuliang\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.047" classname="com.lazerycode.jmeter.analyzer.statistics.SamplesTest" name="testAggregate"/>
+  <testcase time="0" classname="com.lazerycode.jmeter.analyzer.statistics.SamplesTest" name="testAggregate2"/>
+  <testcase time="0.015" classname="com.lazerycode.jmeter.analyzer.statistics.SamplesTest" name="testSmallHistogram"/>
+  <testcase time="0" classname="com.lazerycode.jmeter.analyzer.statistics.SamplesTest" name="testNoSamples"/>
+  <testcase time="0" classname="com.lazerycode.jmeter.analyzer.statistics.SamplesTest" name="test99Point9Quantile"/>
+</testsuite>

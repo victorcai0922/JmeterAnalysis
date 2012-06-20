@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="3" time="18.939" errors="0" skipped="0" tests="8" name="com.lazerycode.jmeter.analyzer.AnalyzeCommandTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.6.0_24\jre\bin"/>
+    <property name="java.vm.version" value="19.1-b02"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\jmeter-analysis-maven-plugin"/>
+    <property name="java.runtime.version" value="1.6.0_24-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\jmeter-analysis-maven-plugin"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.6.0_24\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="C:\DOCUME~1\CAIQIU~1\LOCALS~1\Temp\surefirebooter6066345402996307907.jar"/>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\CAIQIU~1\LOCALS~1\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.6.0_24\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;d:\Ruby193\bin;D:\ruby\bin;D:\Perl\site\bin;D:\Perl\bin;D:\btrace\bin;D:\orl\bin;c:\Program Files\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;c:\Program Files\Intel\DMIX;D:\Program Files\Java\jdk1.6.0_24\bin;D:\Program Files\Java\jdk1.6.0_24\jre\bin;D:\Program Files\apache-ant-1.8.2\bin;D:\Program Files\apache-ant-1.8.2\lib;D:\Program Files\Subversion\bin;D:\Program Files\MySQL\MySQL Server 5.0\bin;D:\Program Files\apache-maven-2.2.1\bin;F:\Android\tools;C:\Program Files\Windows Imaging\;d:\Program Files\Git\cmd;F:\softwaretools\jmeter-2.6\bin;D:\btrace\bin;d:\Program Files\SSH Communications Security\SSH Secure Shell;d:\Program Files\OpenVPN\bin;D:\Program Files\Sikuli X\libs;D:\Program Files\Java\jre6\\bin"/>
+    <property name="surefire.test.class.path" value="E:\jmeter-analysis-maven-plugin\target\test-classes;E:\jmeter-analysis-maven-plugin\target\classes;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.4\plexus-component-annotations-1.5.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-core\3.1.1.RELEASE\spring-core-3.1.1.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-asm\3.1.1.RELEASE\spring-asm-3.1.1.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\jfree\jfreechart\1.0.13\jfreechart-1.0.13.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\jfree\jcommon\1.0.16\jcommon-1.0.16.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\freemarker\freemarker\2.3.19\freemarker-2.3.19.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="5.1"/>
+    <property name="user.home" value="C:\Documents and Settings\caiqiuliang"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="caiqiuliang"/>
+    <property name="java.class.path" value="E:\jmeter-analysis-maven-plugin\target\test-classes;E:\jmeter-analysis-maven-plugin\target\classes;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.4\plexus-component-annotations-1.5.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-core\3.1.1.RELEASE\spring-core-3.1.1.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-asm\3.1.1.RELEASE\spring-asm-3.1.1.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\jfree\jfreechart\1.0.13\jfreechart-1.0.13.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\jfree\jcommon\1.0.16\jcommon-1.0.16.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\freemarker\freemarker\2.3.19\freemarker-2.3.19.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.6.0_24\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_24"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.6.0_24\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.6.0_24\jre\lib\resources.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\rt.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\jce.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.6.0_24\jre\lib\modules\jdk.boot.jar;D:\Program Files\Java\jdk1.6.0_24\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Documents and Settings\caiqiuliang\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="1.813" classname="com.lazerycode.jmeter.analyzer.AnalyzeCommandTest" name="testTextOutput">
+    <failure message="text expected:&lt;[warmup
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             36049
+  requests per second:  1201
+  response duration (ms)
+    min:                0
+    average:            0
+    max:                1352
+    standard deviation: 7
+    quantiles (ms)
+         10%        0
+         20%        0
+         30%        0
+         40%        0
+         50%        1
+         60%        1
+         70%        1
+         80%        1
+         90%        1
+         99%        6
+       99.9%       19
+      100.0%     1352 (max. value)
+  response size (bytes)
+    total:              750210890
+    min:                20480
+    average:            20810
+    max:                53890
+    standard deviation: 3308
+  response status codes
+    200:               36049 (100%)]
+&gt; but was:&lt;[posc
+  time: 20120611T141559+0800 - 20120611T141600+0800
+  total duration:       2
+  requests:             20
+  requests per second:  10
+  thread number:        0
+  response duration (ms)
+    min:                43
+    average:            45
+    max:                55
+    standard deviation: 2
+    quantiles (ms)
+         10%       44
+         20%       44
+         30%       44
+         40%       45
+         50%       45
+         60%       45
+         70%       46
+         80%       46
+         90%       48
+         99%       51
+       99.9%       51
+      100.0%       55 (max. value)
+  response size (bytes)
+    total:              14260
+    min:                713
+    average:            713
+    max:                713
+    standard deviation: 0
+  response status codes
+    200:                  20 (100%)]
+&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: text expected:&lt;[warmup
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             36049
+  requests per second:  1201
+  response duration (ms)
+    min:                0
+    average:            0
+    max:                1352
+    standard deviation: 7
+    quantiles (ms)
+         10%        0
+         20%        0
+         30%        0
+         40%        0
+         50%        1
+         60%        1
+         70%        1
+         80%        1
+         90%        1
+         99%        6
+       99.9%       19
+      100.0%     1352 (max. value)
+  response size (bytes)
+    total:              750210890
+    min:                20480
+    average:            20810
+    max:                53890
+    standard deviation: 3308
+  response status codes
+    200:               36049 (100%)]
+&gt; but was:&lt;[posc
+  time: 20120611T141559+0800 - 20120611T141600+0800
+  total duration:       2
+  requests:             20
+  requests per second:  10
+  thread number:        0
+  response duration (ms)
+    min:                43
+    average:            45
+    max:                55
+    standard deviation: 2
+    quantiles (ms)
+         10%       44
+         20%       44
+         30%       44
+         40%       45
+         50%       45
+         60%       45
+         70%       46
+         80%       46
+         90%       48
+         99%       51
+       99.9%       51
+      100.0%       55 (max. value)
+  response size (bytes)
+    total:              14260
+    min:                713
+    average:            713
+    max:                713
+    standard deviation: 0
+  response status codes
+    200:                  20 (100%)]
+&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at com.lazerycode.jmeter.analyzer.AnalyzeCommandTest.testTextOutput(AnalyzeCommandTest.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:62)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+</failure>
+  </testcase>
+  <testcase time="1.047" classname="com.lazerycode.jmeter.analyzer.AnalyzeCommandTest" name="testTextOutputSomeErrors">
+    <failure message="text expected:&lt;warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             36034
+  requests per second:  1201
+  response duration (ms)
+    min:                0
+    average:            0
+    max:                1352
+    standard deviation: 7
+    quantiles (ms)
+         10%        0
+         20%        0
+         30%        0
+         40%        0
+         50%        1
+         60%        1
+         70%        1
+         80%        1
+         90%        1
+         99%        6
+       99.9%       19
+      100.0%     1352 (max. value)
+  response size (bytes)
+    total:              749903690
+    min:                20480
+    average:            20811
+    max:                53890
+    standard deviation: 3308
+  response status codes
+    200:               36034 (99.96%)
+    403:                   9 (0.02%)
+    404:                   6 (0.02%)]
+&gt; but was:&lt;warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             36034
+  requests per second:  1201
+  thread number:        0
+  response duration (ms)
+    min:                0
+    average:            0
+    max:                1352
+    standard deviation: 7
+    quantiles (ms)
+         10%        0
+         20%        0
+         30%        0
+         40%        0
+         50%        1
+         60%        1
+         70%        1
+         80%        1
+         90%        1
+         99%        6
+       99.9%       19
+      100.0%     1352 (max. value)
+  response size (bytes)
+    total:              749903690
+    min:                20480
+    average:            20811
+    max:                53890
+    standard deviation: 3308
+  response status codes
+    200:               36034 (99.96%)
+    403:                   9 (0.02%)
+    404:                   6 (0.02%)]
+&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: text expected:&lt;warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             36034
+  requests per second:  1201
+  response duration (ms)
+    min:                0
+    average:            0
+    max:                1352
+    standard deviation: 7
+    quantiles (ms)
+         10%        0
+         20%        0
+         30%        0
+         40%        0
+         50%        1
+         60%        1
+         70%        1
+         80%        1
+         90%        1
+         99%        6
+       99.9%       19
+      100.0%     1352 (max. value)
+  response size (bytes)
+    total:              749903690
+    min:                20480
+    average:            20811
+    max:                53890
+    standard deviation: 3308
+  response status codes
+    200:               36034 (99.96%)
+    403:                   9 (0.02%)
+    404:                   6 (0.02%)]
+&gt; but was:&lt;warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             36034
+  requests per second:  1201
+  thread number:        0
+  response duration (ms)
+    min:                0
+    average:            0
+    max:                1352
+    standard deviation: 7
+    quantiles (ms)
+         10%        0
+         20%        0
+         30%        0
+         40%        0
+         50%        1
+         60%        1
+         70%        1
+         80%        1
+         90%        1
+         99%        6
+       99.9%       19
+      100.0%     1352 (max. value)
+  response size (bytes)
+    total:              749903690
+    min:                20480
+    average:            20811
+    max:                53890
+    standard deviation: 3308
+  response status codes
+    200:               36034 (99.96%)
+    403:                   9 (0.02%)
+    404:                   6 (0.02%)]
+&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at com.lazerycode.jmeter.analyzer.AnalyzeCommandTest.testTextOutputSomeErrors(AnalyzeCommandTest.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:62)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+</failure>
+  </testcase>
+  <testcase time="0.031" classname="com.lazerycode.jmeter.analyzer.AnalyzeCommandTest" name="testTextOnlyErrors">
+    <failure message="text expected:&lt;warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             0
+  requests per second:  0
+  errors:               100%]
+&gt; but was:&lt;warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             0
+  requests per second:  0
+  thread number:        0
+  errors:               100%]
+&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: text expected:&lt;warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             0
+  requests per second:  0
+  errors:               100%]
+&gt; but was:&lt;warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             0
+  requests per second:  0
+  thread number:        0
+  errors:               100%]
+&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at com.lazerycode.jmeter.analyzer.AnalyzeCommandTest.testTextOnlyErrors(AnalyzeCommandTest.java:222)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:62)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+</failure>
+  </testcase>
+  <testcase time="0.016" classname="com.lazerycode.jmeter.analyzer.AnalyzeCommandTest" name="testTextEmptyOutput"/>
+  <testcase time="13.828" classname="com.lazerycode.jmeter.analyzer.AnalyzeCommandTest" name="testAllFiles"/>
+  <testcase time="0.594" classname="com.lazerycode.jmeter.analyzer.AnalyzeCommandTest" name="testSomeFiles"/>
+  <testcase time="1.125" classname="com.lazerycode.jmeter.analyzer.AnalyzeCommandTest" name="testCustomTemplates"/>
+  <testcase time="0.485" classname="com.lazerycode.jmeter.analyzer.AnalyzeCommandTest" name="testDownload"/>
+</testsuite>

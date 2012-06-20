@@ -1,0 +1,231 @@
+-------------------------------------------------------------------------------
+Test set: com.lazerycode.jmeter.analyzer.AnalyzeCommandTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 18.954 sec <<< FAILURE!
+testTextOutput(com.lazerycode.jmeter.analyzer.AnalyzeCommandTest)  Time elapsed: 1.813 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: text expected:<[warmup
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             36049
+  requests per second:  1201
+  response duration (ms)
+    min:                0
+    average:            0
+    max:                1352
+    standard deviation: 7
+    quantiles (ms)
+         10%        0
+         20%        0
+         30%        0
+         40%        0
+         50%        1
+         60%        1
+         70%        1
+         80%        1
+         90%        1
+         99%        6
+       99.9%       19
+      100.0%     1352 (max. value)
+  response size (bytes)
+    total:              750210890
+    min:                20480
+    average:            20810
+    max:                53890
+    standard deviation: 3308
+  response status codes
+    200:               36049 (100%)]
+> but was:<[posc
+  time: 20120611T141559+0800 - 20120611T141600+0800
+  total duration:       2
+  requests:             20
+  requests per second:  10
+  thread number:        0
+  response duration (ms)
+    min:                43
+    average:            45
+    max:                55
+    standard deviation: 2
+    quantiles (ms)
+         10%       44
+         20%       44
+         30%       44
+         40%       45
+         50%       45
+         60%       45
+         70%       46
+         80%       46
+         90%       48
+         99%       51
+       99.9%       51
+      100.0%       55 (max. value)
+  response size (bytes)
+    total:              14260
+    min:                713
+    average:            713
+    max:                713
+    standard deviation: 0
+  response status codes
+    200:                  20 (100%)]
+>
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at com.lazerycode.jmeter.analyzer.AnalyzeCommandTest.testTextOutput(AnalyzeCommandTest.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:62)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+
+testTextOutputSomeErrors(com.lazerycode.jmeter.analyzer.AnalyzeCommandTest)  Time elapsed: 1.047 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: text expected:<warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             36034
+  requests per second:  1201
+  response duration (ms)
+    min:                0
+    average:            0
+    max:                1352
+    standard deviation: 7
+    quantiles (ms)
+         10%        0
+         20%        0
+         30%        0
+         40%        0
+         50%        1
+         60%        1
+         70%        1
+         80%        1
+         90%        1
+         99%        6
+       99.9%       19
+      100.0%     1352 (max. value)
+  response size (bytes)
+    total:              749903690
+    min:                20480
+    average:            20811
+    max:                53890
+    standard deviation: 3308
+  response status codes
+    200:               36034 (99.96%)
+    403:                   9 (0.02%)
+    404:                   6 (0.02%)]
+> but was:<warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             36034
+  requests per second:  1201
+  thread number:        0
+  response duration (ms)
+    min:                0
+    average:            0
+    max:                1352
+    standard deviation: 7
+    quantiles (ms)
+         10%        0
+         20%        0
+         30%        0
+         40%        0
+         50%        1
+         60%        1
+         70%        1
+         80%        1
+         90%        1
+         99%        6
+       99.9%       19
+      100.0%     1352 (max. value)
+  response size (bytes)
+    total:              749903690
+    min:                20480
+    average:            20811
+    max:                53890
+    standard deviation: 3308
+  response status codes
+    200:               36034 (99.96%)
+    403:                   9 (0.02%)
+    404:                   6 (0.02%)]
+>
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at com.lazerycode.jmeter.analyzer.AnalyzeCommandTest.testTextOutputSomeErrors(AnalyzeCommandTest.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:62)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+
+testTextOnlyErrors(com.lazerycode.jmeter.analyzer.AnalyzeCommandTest)  Time elapsed: 0.031 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: text expected:<warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             0
+  requests per second:  0
+  errors:               100%]
+> but was:<warmup[
+  time: 20111216T215509+0800 - 20111216T215539+0800
+  total duration:       30
+  requests:             0
+  requests per second:  0
+  thread number:        0
+  errors:               100%]
+>
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at com.lazerycode.jmeter.analyzer.AnalyzeCommandTest.testTextOnlyErrors(AnalyzeCommandTest.java:222)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:62)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+

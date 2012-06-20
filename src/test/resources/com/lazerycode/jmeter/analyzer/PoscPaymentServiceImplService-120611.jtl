@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="51" lt="0" ts="1339395359028" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-1" dt="text" by="713"/>
+<sample t="45" lt="0" ts="1339395359133" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-2" dt="text" by="713"/>
+<sample t="45" lt="0" ts="1339395359227" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-3" dt="text" by="713"/>
+<sample t="46" lt="0" ts="1339395359336" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-4" dt="text" by="713"/>
+<sample t="45" lt="0" ts="1339395359428" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-5" dt="text" by="713"/>
+<sample t="46" lt="0" ts="1339395359527" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-6" dt="text" by="713"/>
+<sample t="44" lt="0" ts="1339395359636" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-7" dt="text" by="713"/>
+<sample t="55" lt="0" ts="1339395359728" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-8" dt="text" by="713"/>
+<sample t="44" lt="0" ts="1339395359834" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-9" dt="text" by="713"/>
+<sample t="44" lt="0" ts="1339395359929" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-10" dt="text" by="713"/>
+<sample t="45" lt="0" ts="1339395360029" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-11" dt="text" by="713"/>
+<sample t="48" lt="0" ts="1339395360130" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-12" dt="text" by="713"/>
+<sample t="44" lt="0" ts="1339395360231" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-13" dt="text" by="713"/>
+<sample t="46" lt="0" ts="1339395360335" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-14" dt="text" by="713"/>
+<sample t="45" lt="0" ts="1339395360433" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-15" dt="text" by="713"/>
+<sample t="45" lt="0" ts="1339395360532" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-16" dt="text" by="713"/>
+<sample t="44" lt="0" ts="1339395360633" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-17" dt="text" by="713"/>
+<sample t="47" lt="0" ts="1339395360734" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-18" dt="text" by="713"/>
+<sample t="45" lt="0" ts="1339395360834" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-19" dt="text" by="713"/>
+<sample t="43" lt="0" ts="1339395360934" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="posc 1-20" dt="text" by="713"/>
+</testResults>

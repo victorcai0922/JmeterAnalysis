@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="81" lt="0" ts="1339144634069" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144634431" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-2" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144634473" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144634782" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-2" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144634824" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="52" lt="0" ts="1339144634930" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-3" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144635133" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-2" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="49" lt="0" ts="1339144635174" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="50" lt="0" ts="1339144635284" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-3" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144635430" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-4" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144635482" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-2" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144635638" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-3" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144635781" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-4" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144635929" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-5" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144635985" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-3" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144636128" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-4" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144636276" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-5" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="51" lt="0" ts="1339144636429" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-6" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144636476" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-4" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144636625" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-5" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144636783" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-6" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144636932" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-7" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144636973" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-5" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="59" lt="0" ts="1339144637134" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-6" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144637280" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-7" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144637435" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-8" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144637496" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-6" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144637628" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-7" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144637784" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-8" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144637935" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-9" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144637977" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-7" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144638131" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-8" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144638282" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-9" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144638435" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-10" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144638479" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-8" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="49" lt="0" ts="1339144638630" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-9" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144638784" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-10" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144638935" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-11" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144638982" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-9" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="90" lt="0" ts="1339144639131" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-10" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="50" lt="0" ts="1339144639284" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-11" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144639435" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-12" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144639524" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-10" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144639636" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-11" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144639781" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-12" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144639933" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-13" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144639983" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-11" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="99" lt="0" ts="1339144640128" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-12" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="55" lt="0" ts="1339144640279" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-13" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="50" lt="0" ts="1339144640451" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-14" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="50" lt="0" ts="1339144640529" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-12" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="50" lt="0" ts="1339144640636" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-13" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="50" lt="0" ts="1339144640803" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-14" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="50" lt="0" ts="1339144640950" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-15" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="49" lt="0" ts="1339144640988" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-13" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="51" lt="0" ts="1339144641155" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-14" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144641303" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-15" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144641450" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-16" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144641508" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-14" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144641651" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-15" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144641798" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-16" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144641951" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-17" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="43" lt="0" ts="1339144641999" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-15" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144642145" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-16" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144642300" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-17" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144642450" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-18" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144642492" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-16" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144642650" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-17" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144642796" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-18" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144642949" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-19" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="43" lt="0" ts="1339144642998" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-17" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144643141" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-18" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="91" lt="0" ts="1339144643295" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-19" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144643449" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-20" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144643490" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-18" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="49" lt="0" ts="1339144643688" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-19" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144643798" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-20" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144643950" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-21" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144644038" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-19" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144644146" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-20" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144644297" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-21" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144644449" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-22" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144644492" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-20" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144644644" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-21" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144644797" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-22" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144644948" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-23" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144644991" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-21" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144645143" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-22" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="49" lt="0" ts="1339144645294" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-23" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144645448" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-24" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144645493" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-22" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144645645" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-23" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144645796" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-24" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144645949" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-25" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="53" lt="0" ts="1339144645997" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-23" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144646146" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-24" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144646299" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-25" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144646449" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-26" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144646496" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-24" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144646645" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-25" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144646800" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-26" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144646948" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-27" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144646994" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-25" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144647150" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-26" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144647296" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-27" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="73" lt="0" ts="1339144647448" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-28" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144647497" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-26" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144647643" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-27" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144647824" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-28" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144647949" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-29" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144647991" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-27" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144648169" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-28" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144648296" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-29" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144648448" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-30" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144648515" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-28" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144648643" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-29" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144648797" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-30" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144648949" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-31" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144648995" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-29" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144649145" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-30" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="48" lt="0" ts="1339144649297" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-31" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="104" lt="0" ts="1339144649450" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-32" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="100" lt="0" ts="1339144649491" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-30" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144649647" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-31" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144649856" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-32" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="43" lt="0" ts="1339144649951" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-33" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144649996" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-31" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144650203" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-32" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144650296" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-33" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144650449" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-34" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144650551" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-32" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144650643" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-33" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="88" lt="0" ts="1339144650796" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-34" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144650950" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-35" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144650991" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-33" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144651186" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-34" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144651297" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-35" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="43" lt="0" ts="1339144651449" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-36" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="89" lt="0" ts="1339144651533" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-34" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144651644" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-35" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144651794" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-36" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144651949" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-37" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144651993" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-35" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144652142" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-36" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144652298" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-37" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144652451" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-38" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144652489" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-36" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144652645" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-37" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144652798" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-38" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144652949" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-39" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="47" lt="0" ts="1339144652992" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-37" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144653145" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-38" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144653296" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-39" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144653450" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-40" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144653494" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-38" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="87" lt="0" ts="1339144653641" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-39" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="44" lt="0" ts="1339144653799" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-40" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="45" lt="0" ts="1339144654031" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-39" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="50" lt="0" ts="1339144654145" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-40" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="46" lt="0" ts="1339144654497" s="true" lb="PoscPaymentServiceImplService" rc="200" rm="OK" tn="线程组 1-40" dt="text" by="713">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+
+</testResults>
