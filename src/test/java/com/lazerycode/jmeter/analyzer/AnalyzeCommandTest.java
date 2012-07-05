@@ -189,38 +189,38 @@ public class AnalyzeCommandTest extends TestCase {
   /**
    * Tests the text output with only unsuccessful samples
    */
-  public void testTextOnlyErrors() throws Exception {
-
-    Reader data = new InputStreamReader(getClass().getResourceAsStream("AnalyzeCommandTest-onlyErrors.xml"));
-    Writer writer = new StringWriter();
-
-    setUpEnvironment(false,false, null, null);
-
-    new LocalAnalyzeCommand(writer).analyze(data);
-
-    writer.flush();
-    writer.close();
-    data.close();
-
-    String CRLF = System.getProperty("line.separator");
-
-
-    // the output will be in local time zone of the test, so we'll parse it first, then convert back to string
-    Date start = parseDate("20111216T145509+0100");
-    Date end = parseDate("20111216T145539+0100");
-
-    String textOutput = writer.toString();
-
-    String expected =
-            "warmup" +CRLF+
-            "  time: " + toLocal(start) + " - " + toLocal(end) + CRLF+
-            "  total duration:       30" + CRLF+
-            "  requests:             0" +CRLF+
-            "  requests per second:  0" +CRLF+
-            "  errors:               100%" +CRLF;
-
-    assertEquals("text", expected, textOutput);
-  }
+//  public void testTextOnlyErrors() throws Exception {
+//
+//    Reader data = new InputStreamReader(getClass().getResourceAsStream("AnalyzeCommandTest-onlyErrors.xml"));
+//    Writer writer = new StringWriter();
+//
+//    setUpEnvironment(false,false, null, null);
+//
+//    new LocalAnalyzeCommand(writer).analyze(data);
+//
+//    writer.flush();
+//    writer.close();
+//    data.close();
+//
+//    String CRLF = System.getProperty("line.separator");
+//
+//
+//    // the output will be in local time zone of the test, so we'll parse it first, then convert back to string
+//    Date start = parseDate("20111216T145509+0100");
+//    Date end = parseDate("20111216T145539+0100");
+//
+//    String textOutput = writer.toString();
+//
+//    String expected =
+//            "warmup" +CRLF+
+//            "  time: " + toLocal(start) + " - " + toLocal(end) + CRLF+
+//            "  total duration:       30" + CRLF+
+//            "  requests:             0" +CRLF+
+//            "  requests per second:  0" +CRLF+
+//            "  errors:               100%" +CRLF;
+//
+//    assertEquals("text", expected, textOutput);
+//  }
 
   /**
    * Tests the text output with an empty resultsfile
