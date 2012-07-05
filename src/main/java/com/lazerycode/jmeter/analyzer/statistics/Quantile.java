@@ -9,7 +9,7 @@ import java.util.List;
  * A Q-Quantile
  * see http://en.wikipedia.org/wiki/Quantile
  *
- * @author Dennis Homann, Arne Franken
+ * @author caiqiuliang
  */
 public class Quantile {
 

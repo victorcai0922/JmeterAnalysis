@@ -11,7 +11,7 @@ import java.util.Properties;
 /**
  * Stores information used by several objects
  *
- * @author Arne Franken
+ * @author caiqiuliang
  */
 public enum Environment {
 

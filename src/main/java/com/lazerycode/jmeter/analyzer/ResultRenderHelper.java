@@ -33,7 +33,7 @@ import freemarker.template.TemplateException;
 /**
  * Utility for rendering results
  * 
- * @author Arne Franken, Peter Kaul
+ * @author caiqiuliang
  */
 public class ResultRenderHelper {
 

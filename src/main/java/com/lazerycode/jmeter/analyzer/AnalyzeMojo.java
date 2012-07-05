@@ -22,7 +22,7 @@ import static com.lazerycode.jmeter.analyzer.config.Environment.ENVIRONMENT;
  *
  * @goal analyze
  *
- * @author Dennis Homann, Arne Franken, Peter Kaul
+ * @author caiqiuliang
  */
 @SuppressWarnings({"UnusedDeclaration", "FieldCanBeLocal", "JavaDoc"}) // Mojos get their fields set via reflection
 public class AnalyzeMojo extends AbstractMojo {

@@ -6,7 +6,7 @@ import java.util.Comparator;
 /**
  * Compares {@link ValueCount} by value
  *
- * @author Peter Kaul
+ * @author caiqiuliang
  */
 class ValueCountComparator implements Comparator<ValueCount>, Serializable {
 

@@ -19,7 +19,7 @@ import java.util.Map;
  *   <li>quantiles</li>
  * </ul>
  *
- * @author Dennis Homann, Arne Franken, Peter Kaul
+ * @author caiqiuliang
  */
 public class Samples {
 

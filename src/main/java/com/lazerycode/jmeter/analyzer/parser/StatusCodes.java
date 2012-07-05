@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * Counts http response status codes
  *
- * @author Arne Franken, Peter Kaul
+ * @author caiqiuliang
  */
 public class StatusCodes {
 

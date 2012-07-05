@@ -32,7 +32,7 @@ import static com.lazerycode.jmeter.analyzer.config.Environment.ISO8601_FORMAT;
  *
  * @see AnalyzeMojo
  *
- * @author Dennis Homann, Arne Franken, Peter Kaul
+ * @author caiqiuliang
  */
 public class AnalyzeCommand {
 

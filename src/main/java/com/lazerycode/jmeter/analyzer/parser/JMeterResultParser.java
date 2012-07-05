@@ -31,7 +31,7 @@ import com.lazerycode.jmeter.analyzer.statistics.Samples;
  * Parses a JMeter xml result and provides {@link AggregatedResponses aggregated
  * results}
  * 
- * @author Dennis Homann, Arne Franken, Peter Kaul
+ * @author caiqiuliang
  */
 public class JMeterResultParser {
 

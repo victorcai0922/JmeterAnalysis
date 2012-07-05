@@ -3,7 +3,7 @@ package com.lazerycode.jmeter.analyzer.statistics;
 /**
  * Manages the count for a long value.
  *
- * @author Peter Kaul
+ * @author caiqiuliang
  */
 class ValueCount {
   private long value;

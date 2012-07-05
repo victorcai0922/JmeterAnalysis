@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Holds aggregated data for several http responses.
  * 
- * @author Arne Franken, Peter Kaul
+ * @author caiqiuliang
  */
 public class AggregatedResponses {
 
