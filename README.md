@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 JMeter Result Analysis Plugin
 ======================
 
@@ -139,3 +140,9 @@ Part of the development of this plugin is sponsored by [CoreMedia][3]
 [2]:    http://jakarta.apache.org/jmeter/                           "JMeter"
 [3]:    http://www.coremedia.com                                    "CoreMedia AG"
 [4]:    http://freemarker.sourceforge.net/                          "Freemarker"
+=======
+JmeterAnalysis
+==============
+
+Analysis jmeter results and integration with Jenkins for automation performance testing
+>>>>>>> 721d9729eff59119a1625ef3a10dc586dee86a4f
